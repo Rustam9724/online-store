@@ -1,0 +1,58 @@
+@import "../components/sections/header/header.scss";
+@import "../components/sections/filters/filters.scss";
+@import "../components/sections/cards/cards.scss";
+@import "../components/sections/footer/footer.scss";
+
+*, ul, p, h1, h2, h3, h4, button, body, input, ::before, ::after, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html, body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.filters__container {
+    padding: 0;
+}
