@@ -265,7 +265,7 @@
   transition: border-color 0.5s;
 }
 .filters .filters__container .filters__meaning .filter-section__guitar-color .guitar-color__right #wood-color + label {
-  background: url("../components/assets/wood-color.png");
+  background: brown
 }
 .filters .filters__container .filters__meaning .filter-section__guitar-color .guitar-color__right #black-color + label {
   background: black;
